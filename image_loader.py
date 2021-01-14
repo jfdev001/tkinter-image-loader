@@ -36,9 +36,7 @@ class ImageLoader:
 
 
     def create_label(self):
-        """Define and display Label for image.
-        Why is self.master an invalid argument?
-        """
+        """Define and display Label for image."""
         self.img = tk.Label(self.frame,
                     image=self.photoimage_list[self.cur_file_index[0]])
         self.img.grid(row=0, column=0, columnspan=3)
